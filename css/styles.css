@@ -1,0 +1,63 @@
+body{
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+:root{
+    --primary-text-color: rgba(117, 117, 117, 1);
+    --primary-white-color:rgba(255, 255, 255, 1);
+    --accent-color: rgba(33, 33, 33, 1);
+    --color-hover-logo-button: rgba(33, 150, 243, 1);
+}
+
+.list{
+    list-style: none;
+}
+
+/* ШАПКА САЙТУ */
+.link,
+.email,
+.tel,
+.logo{
+    text-decoration: none;
+}
+
+.logo,
+.link{
+    color: var(--accent-color);
+}
+ 
+.email,
+.tel{
+    color: var(--primary-text-color);
+}
+
+.logo-element{
+    color: var(--color-hover-logo-button);
+}
+
+.link:hover,
+.link:focus,
+.email:hover,
+.email:focus,
+.tel:hover,
+.tel:focus{
+color: var(--color-hover-logo-button);
+}
+
+/* Заголовок + кнопка */
+
+/* .hero-title{
+    color: var(--primary-white-color);
+} */
+
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--color-hover-logo-button);
+    cursor: pointer;
+}
+
+h2,
+h3{
+color: var(--accent-color);
+}
