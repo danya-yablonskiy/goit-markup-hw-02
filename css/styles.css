@@ -4,7 +4,7 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
-
+/* Усі кольори */
 :root{
     --primary-text-color: rgba(117, 117, 117, 1);
     --primary-white-color:rgba(255, 255, 255, 1);
@@ -12,17 +12,11 @@ body{
     --color-hover-logo-button: rgba(33, 150, 243, 1);
 }
 
+
 .list{
     list-style: none;
 }
 
-
-.logo{
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-}
 
 /* ШАПКА і ФУТЕР*/
 .link,
@@ -55,6 +49,28 @@ body{
 color: var(--color-hover-logo-button);
 }
 
+h2,
+h3{
+color: var(--accent-color);
+}
+
+/* Робота зі шрифтом  для "Студія"*/
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+/* Шрифт для тексту в title-list */
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* Е-мейл, пошта, навігація для "Студія" */
 .site-nav,
 .email,
 .tel{
@@ -64,7 +80,9 @@ color: var(--color-hover-logo-button);
     letter-spacing: 0.02em;
 }
 
+/* Заголовок для "Студія" */
 .hero-title{
+    color: var(--primary-white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -72,6 +90,7 @@ color: var(--color-hover-logo-button);
     letter-spacing: 0.06em;
 }
 
+/* h2 для "Студія" */
 .subtitle{
     font-weight: 700;
     font-size: 36px;
@@ -79,16 +98,26 @@ color: var(--color-hover-logo-button);
     text-align: center;
 }
 
+/* h3 для "Студія" */
 .title-list{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 }
-/* Заголовок + кнопка (студія)*/
 
-/* .hero-title{
-    color: var(--primary-white-color);
-} */
+.person-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19px;
+}
+
+/* Кнопка (Cтудія)*/
 
 .button{
     color: var(--primary-white-color);
@@ -101,14 +130,29 @@ line-height: 1.14;
     letter-spacing: 0.06em; 
 }
 
-h2,
-h3{
-color: var(--accent-color);
-}
+/* Робота зі шрифтом для "Портфоліо" */
+
+
 
 /*Кнопки(портфоліо)*/
 
 .button-element{
-background-color: --primary-white-color;
-color:  --accent-color;
+color: var(--accent-color);
+background-color: var(--primary-white-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+}
+
+.heading-port{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.text-port{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
