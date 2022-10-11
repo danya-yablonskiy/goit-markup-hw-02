@@ -10,6 +10,7 @@ body {
   --primary-white-color: rgba(255, 255, 255, 1);
   --accent-color: rgba(33, 33, 33, 1);
   --color-hover-logo-button: rgba(33, 150, 243, 1);
+  --color-background-footer: rgba(47, 48, 58, 1);
 }
 
 .list {
@@ -52,6 +53,23 @@ h3 {
   color: var(--accent-color);
 }
 
+.footer{
+background-color: var(--color-background-footer);
+}
+
+.logo-footer{
+  text-decoration: none;
+  color: var(--primary-white-color);
+   font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.geo{
+  color: var(--primary-white-color ) ;
+  font-style: normal;
+}
 /* Робота зі шрифтом  для "Студія"*/
 
 .logo {
@@ -63,7 +81,6 @@ h3 {
 
 /* Шрифт для тексту в title-list */
 .text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -81,6 +98,7 @@ h3 {
 /* Заголовок для "Студія" */
 .hero-title {
   color: var(--primary-white-color);
+  background-color: var(--color-background-footer);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -110,7 +128,6 @@ h3 {
 }
 
 .profession {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19px;
 }
@@ -141,14 +158,12 @@ h3 {
 }
 
 .heading-port {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .text-port {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
 }
